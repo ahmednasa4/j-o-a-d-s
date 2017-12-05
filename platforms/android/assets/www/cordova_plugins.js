@@ -48,7 +48,6 @@ module.exports.metadata =
     "cordova-plugin-appminimize": "1.0",
     "cordova-plugin-network-information": "1.3.4",
     "cordova-plugin-splashscreen": "4.1.0",
-    "cordova-plugin-whitelist": "1.3.3",
     "phonegap-plugin-push": "2.1.2"
 };
 // BOTTOM OF METADATA
