@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.joads" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>JoADS</name>
+    <description>
+        Jordan ADS
+    </description>
+    <author email="ahmednasa4@gmail.com" href="">
+        Ahmed Nabeel Al-Gobari
+    </author>
+    <content src="index.html" />
+    <splash src="splash.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="android-minSdkVersion" value="15" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashScreenDelay" value="4000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreen" value="splash.png" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+</widget>

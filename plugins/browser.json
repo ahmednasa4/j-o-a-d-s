@@ -1,0 +1,27 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-appminimize": {
+      "PACKAGE_NAME": "com.joads"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.joads"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.joads"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.joads"
+    },
+    "phonegap-plugin-push": {
+      "PACKAGE_NAME": "com.joads"
+    }
+  },
+  "dependent_plugins": {}
+}
