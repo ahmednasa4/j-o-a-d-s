@@ -120,19 +120,19 @@ function startApp(argument) {
     // head.appendChild(script);
 
     myApp.showIndicator();
-    $.getScript("http://104.236.231.108/joads/app.js",function(data, textStatus, jqxhr ) {
-        myApp.hideIndicator();
-    });
+    // $.getScript("http://104.236.231.108/joads/app.js",function(data, textStatus, jqxhr ) {
+    //     myApp.hideIndicator();
+    // });
 
 
-    // $.getScript("http://104.236.231.108/joads/app.js")
-    //     .done(function(script, textStatus) {
-    //         myApp.hideIndicator();
-    //     })
-    //     .fail(function(jqxhr, settings, exception) {
-    //         myApp.hideIndicator();
-    //         myApp.alert("شبكة الإنترنت الحالية تمنع التطبيق من العمل يرجى تغيير الشبكة الحالية والإتصال بشبكة آخرى وإعادة تشغيل التطبيق");
-    //     });
+    $.getScript("http://104.236.231.108/joads/app.js")
+        .done(function(script, textStatus) {
+            myApp.hideIndicator();
+        })
+        .fail(function(jqxhr, settings, exception) {
+            myApp.hideIndicator();
+            myApp.alert("شبكة الإنترنت الحالية تمنع التطبيق من العمل يرجى تغيير الشبكة الحالية والإتصال بشبكة آخرى وإعادة تشغيل التطبيق");
+        });
 
 
 }
