@@ -15,7 +15,7 @@
     }
   },
   "dependencies": {
-    "cordova-android": "~6.0.0",
+    "cordova-android": "^6.4.0",
     "cordova-plugin-appminimize": "https://github.com/tomloprod/cordova-plugin-appminimize.git",
     "cordova-plugin-network-information": "^1.3.3",
     "cordova-plugin-splashscreen": "^4.0.3",
