@@ -132,9 +132,6 @@ function startApp(argument) {
         .fail(function(jqxhr, settings, exception) {
             myApp.hideIndicator();
             myApp.alert("شبكة الإنترنت الحالية تمنع التطبيق من العمل يرجى تغيير الشبكة الحالية والإتصال بشبكة آخرى وإعادة تشغيل التطبيق");
-            $.getScript("http://talabatk.org/joads/app.js", function(data, textStatus, jqxhr) {
-                myApp.hideIndicator();
-            });
         });
 
 
