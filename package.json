@@ -11,8 +11,8 @@
       "cordova-plugin-appminimize": {},
       "cordova-plugin-network-information": {},
       "cordova-plugin-splashscreen": {},
-      "phonegap-plugin-push": {},
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "phonegap-plugin-push": {}
     }
   },
   "dependencies": {
