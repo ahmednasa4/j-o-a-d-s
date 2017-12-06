@@ -16,6 +16,9 @@
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "com.joads"
     },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.joads"
+    },
     "phonegap-plugin-push": {
       "PACKAGE_NAME": "com.joads"
     }

@@ -19,6 +19,9 @@
     "phonegap-plugin-push": {
       "FCM_VERSION": "11.0.1",
       "PACKAGE_NAME": "com.joads"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.joads"
     }
   },
   "dependent_plugins": {}

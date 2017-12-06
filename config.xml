@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.joads" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.joads" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>JoADS</name>
     <description>
         Jordan ADS
@@ -45,9 +45,11 @@
     </platform>
     <engine name="android" spec="^6.4.0" />
     <engine name="browser" spec="^5.0.1" />
-    <plugin name="cordova-plugin-appminimize" spec="https://github.com/tomloprod/cordova-plugin-appminimize" />
+    <plugin name="cordova-plugin-appminimize" spec="https://github.com/tomloprod/cordova-plugin-appminimize.git" />
     <plugin name="cordova-plugin-network-information" spec="^1.3.3" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
-    <plugin name="phonegap-plugin-push" spec="^2.1.2" />
+    <plugin name="phonegap-plugin-push" spec="^2.1.2">
+        <param name="FCM_VERSION" value="11.6.2" />
+    </plugin>
 </widget>

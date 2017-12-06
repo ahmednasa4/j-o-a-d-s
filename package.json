@@ -12,7 +12,9 @@
       "cordova-plugin-network-information": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-whitelist": {},
-      "phonegap-plugin-push": {}
+      "phonegap-plugin-push": {
+        "FCM_VERSION": "11.6.2"
+      }
     }
   },
   "dependencies": {
